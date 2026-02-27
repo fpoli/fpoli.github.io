@@ -1,0 +1,83 @@
+:root {
+    --hue: 10;
+    --background: hsl(var(--hue), 40%, 99%);
+    --code-background: hsl(var(--hue), 20%, 90%);
+    --text: #000;
+    --link: hsl(var(--hue), 80%, 40%);
+    --nav-radius: 0px;
+    --nav-bg: hsl(var(--hue), 20%, 90%);
+    --nav-text: #000;
+    --nav-active-bg: hsl(var(--hue), 40%, 80%);
+    --nav-active-border: hsl(var(--hue), 80%, 40%);
+}
+
+html {
+    font-family: "Raleway", Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    scrollbar-gutter: stable;
+}
+
+body {
+    width: clamp(15em, calc(100% - 2em), 38em);
+    margin: min(5vw, 5em) auto;
+    background: var(--background);
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
+
+h1 a {
+    color: var(--text);
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 2em;
+    border-radius: var(--nav-radius);
+    background: var(--nav-bg);
+}
+
+nav a {
+    padding: 0.5em clamp(0.5em, calc(1em + 1vw), 2em);
+    border-radius: var(--nav-radius);
+    background: var(--nav-bg);
+    color: var(--nav-text);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+nav a[aria-current="page"],
+nav a:hover {
+    box-shadow: 0px 5px var(--nav-active-border);
+    background: var(--nav-active-bg);
+}
+
+pre {
+    background: var(--code-background);
+    padding: 1em;
+    overflow-x: auto;
+    scrollbar-color: var(--code-background) var(--background);
+}
+
+pre>code {
+    font-family: "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    font-size: 0.9em;
+    line-height: 1.0;
+    white-space: pre;
+}
