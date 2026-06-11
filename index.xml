@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About Federico Poli on Federico Poli</title><link>https://fpoli.github.io/</link><description>Recent content in About Federico Poli on Federico Poli</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://fpoli.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Federico Poli: Research</title><link>https://fpoli.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fpoli.github.io/research/</guid><description>&lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/viperproject/prusti-dev"&gt;Prusti&lt;/a&gt; — Our automated verifier for Rust. I worked on this from 2017 to 2024.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/viperproject/prusti-assistant"&gt;Prusti Assistant&lt;/a&gt; — An IDE extension to verify Rust programs in VS Code with Prusti. I worked on this from 2017 to 2024.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/viperproject/mendel-verifier"&gt;Mendel&lt;/a&gt; — Another Rust verifier, specialized in verifying usages of &lt;a href="https://doc.rust-lang.org/reference/interior-mutability.html"&gt;interior mutability&lt;/a&gt;. I worked on this from 2022 to 2024.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Building User-Friendly Rust Verification Tools.&amp;rdquo; At the &lt;em&gt;Rust Verification Workshop&lt;/em&gt;, 2024. [&lt;a href="https://fpoli.github.io/downloads/user-friendly-verifiers-rw24.pdf"&gt;Slides&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Prusti: Deductive Verification for Rust.&amp;rdquo; At the &lt;em&gt;Swiss Verification Day&lt;/em&gt;, 2024. [&lt;a href="https://fpoli.github.io/downloads/prusti-svd24.pdf"&gt;Slides&lt;/a&gt;] [&lt;a href="https://fpoli.github.io/downloads/demo-svd24.zip"&gt;Demo&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Verifying Safe Rust Clients of Internally-Unsafe Libraries.&amp;rdquo; At the &lt;em&gt;Rust Verification Workshop&lt;/em&gt;, 2023. [&lt;a href="https://fpoli.github.io/downloads/safe-clients-rw23.pdf"&gt;Slides&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Leveraging Rust Types for Modular Specification and Verification.&amp;rdquo;
+At &lt;em&gt;Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)&lt;/em&gt;, 2019. [&lt;a href="https://www.youtube.com/watch?v=lfc08mntlB0"&gt;Talk&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="publications"&gt;Publications&lt;/h2&gt;
+&lt;p&gt;† = All authors are listed in alphabetical order.&lt;/p&gt;</description></item></channel></rss>
